@@ -38,11 +38,10 @@ i. git clone https://github.com/<your-username>/tenzies-game.git
 ii. cd tenzies-game  
 iii. npm install  
 iv. npm start  
-More details on code README.md 
 
 
 # Gameplay
-<img width="876" height="912" alt="Game demo" src="https://github.com/user-attachments/assets/4bb8ba28-e099-4444-9b6b-c150616f300c" />
+<img width="876" height="912" alt="image" src="public\Game demo.png" />
 
 
 # Future Improvements
@@ -50,7 +49,10 @@ More details on code README.md
 * Add animations for rolling dice  
 * Add timer and leaderboard  
 * Add dark/light mode  
-* Make it responsive for mobile  
+* Make it responsive for mobile
+* Local multiplayer — allow friends on the same network to play together:
+  - Create/join a local lobby, sync dice rolls and held-dice across clients, and show shared roll/score state in real time.
+  - Options considered: WebRTC peer-to-peer (no central server), WebSocket with a small local host, or a hosted realtime DB for quick prototyping.
 
 
 # Learning Highlights
