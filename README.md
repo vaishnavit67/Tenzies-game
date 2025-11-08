@@ -24,10 +24,10 @@ tenzies/
 ├── public/  
 ├── src/  
 │   ├── components/  
-│   │   └── die.js  
-│   │   └── main.js   
-│   ├── App.js  
-│   ├── index.js  
+│   │   └── die.jsx  
+│   │   └── main.jsx   
+│   ├── App.jsx  
+│   ├── index.jsx  
 │   └── App.css  
 ├── package.json  
 └── README.md  
